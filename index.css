@@ -1,158 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100vh;
-    width: 99vw;
-    margin: 0;
-    padding: 0;
-    background-color: #A59D84;
-    color: #0A000A;
-}  
-
-.nav-bar{
-    width: 100%;
-    top: 0;
-    display: flex;
-    height: 50px;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 35px;
-    background-color: rgb(250, 227, 112);
-    padding-bottom: 5px;
-    position: fixed;
-}
-
-.nav-bar a{
-    text-decoration: none;
-    color: white;
-}
-
-header p
-{
-    margin: 20px;
-    font-size: 24px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.container {
-    background-color: #C1BAA1;
-    width: 80%;
-    height: max-content;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 65px;
-    border: solid black 4px;
-    border-radius: 10px;
-    max-width: max-content;
-    max-height: max-content;
-}
-
-main 
-{
-    display: flex;
-    flex-direction: column;
-}
-
-main section
-{
-    padding-bottom: 200px;
-    padding-top: 200px;
-    
-}
-
-
-.container a {color: #0A000A;}
-
-.container main {margin: 20px;}
-
-h1 
-{
-    text-align: center;
-    font-size: 50px;
-}
-
-.header-main
-{
-    margin-top: 20px;
-    border: solid black 2px;
-    border-radius: 2px;
-}
-
-section p, section div a
-{
-    font-size: 24px;
-    margin: 20px;
-}
-
-.projectnums
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.projectnum1, .projectnum2, .projectnum3 {display: flex;}
-
-#abt-me-text, #proj-text, #ftr-goals-text {font-size: 40px;}
-
-.main-footer
-{
-    border: solid black 2px;
-    border-radius: 2px;
-}
-
-footer {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
-}
-
-footer a {
-    text-decoration: none;
-    font-size: 30px;
-}
-
-@media (max-width: 768px)
-{
-    .nav-bar{
-    width: 100%;
-    top: 0;
-    display: flex;
-    height: 40px;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 25px;
-    background-color: rgb(250, 227, 112);
-    padding-bottom: 5px;
-    position: fixed;
-    }
-
-    footer a {
-    text-decoration: none;
-    font-size: 22.5px;
-    }
-
-    section p {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1199px) {
-    .nav-bar{
-    font-size: 30px;
-    }
-
-    footer a {
-    text-decoration: none;
-    font-size: 27.5px;
-    }
-
-    section p {
-        font-size: 22px;
-    }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav-bar">
+            <a href="#projects">Projects</a>
+            <a href="#about-me">About Me</a>
+            <a href="#future-goals">Future Goals</a>
+            <a href="#contact-me-here">Contact Me</a>
+    </nav>
+      <div class="container">
+        <header>
+            <h1>Welcome to my Portfolio Page</h1>
+            <p>my name is Uwais Bayrakdar, I'm currently a 1st year university student, and planning to get a job of front-end development before graduating</p>
+        </header>
+        <div class="header-main"></div>
+        <br>
+        <main>
+            <section id="projects">
+            <h2 id="proj-text">My Projects: </h2>
+            <div class="projectnums">   
+                <div class="projectnumsbox1">
+                    <div class="projectnum1"><p>First: </p><a style="text-decoration: none;" href="https://uwais-bayrakdar.github.io/netflix_login_mimic/" target="_blank">Netflix Mimic Login Page</a></div>
+                    <div class="projectnum2"><p>Second: </p><a style="text-decoration: none;" href="https://github.com/Uwais-Bayrakdar/First_Game_On_C">First Game on C( text-based Rpg)</a></div> 
+                </div>
+                <div class="projectnumsbox2">
+                    <div class="projectnum3"><p>Third: </p><a style="text-decoration: none;" href="https://github.com/Uwais-Bayrakdar/Store_Project_C">First Project on C(text-based Online Store)</a></div>
+                    <div class="projectnum4"><p>Fourth: </p><a style="text-decoration: none;" href="https://uwais-bayrakdar.github.io/Kronox_Smartwatches/">Kronox Smartwatches Page</a></div>
+                </div>    
+            </div>
+             </section>
+                <section id="about-me">
+                <h2 id="abt-me-text">About Me</h2>
+                <p>I'm Uwais Bayrakdar, a first-year university student passionate about technology and design. I started exploring programming through C and C++, and recently shifted my focus to front-end web development. I enjoy bringing ideas to life using HTML, CSS, and JavaScript. My goal is to build clean, responsive, and user-friendly websites while constantly improving my skills.</p>
+            </section>
+            <section id="future-goals">
+                <h2 id="ftr-goals-text">Future Goals</h2>
+                <p>In the near future, I aim to master front-end technologies like React, and eventually learn backend development to become a full-stack developer. I also plan to work on real-world projects and contribute to open-source. My main goal is to land a front-end developer job during university so I can gain practical experience early and grow in the tech industry with a strong foundation.</p>
+            </section>
+        </main>
+        <br>
+        <div class="main-footer"></div>
+        <footer>
+            <a id="contact-me-here" href="mailto:redundercage@gmail.com">Contact me here.</a><a href="https://github.com/Uwais-Bayrakdar/">My Github.</a><a href="https://www.linkedin.com/in/uwais-bayrakdar-53b097345/">my LinkedIn profile</a>
+        </footer>
+    </div>
+</body>
+</html>
