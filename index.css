@@ -94,7 +94,7 @@ section p, section div a
     justify-content: space-evenly;
 }
 
-.projectnum1, .projectnum2, .projectnum3, .projectnum4 {display: flex;}
+.projectnum1, .projectnum2, .projectnum3, .projectnum4, .projectnum5 {display: flex;}
 
 #abt-me-text, #proj-text, #ftr-goals-text {font-size: 40px;}
 
