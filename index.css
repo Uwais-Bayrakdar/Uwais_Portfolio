@@ -94,7 +94,24 @@ section p, section div a
     justify-content: space-evenly;
 }
 
-.projectnum1, .projectnum2, .projectnum3, .projectnum4, .projectnum5 {display: flex;}
+.projectnum1-div, .projectnum2-div, .projectnum3-div, .projectnum4-div, .projectnum5-div {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img {
+    width: 80%;
+    margin: 10px auto;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.projectnum1 a, .projectnum2 a, .projectnum3 a, .projectnum4 a, .projectnum5 a {
+    font-size: 30px;
+}
 
 #abt-me-text, #proj-text, #ftr-goals-text {font-size: 40px;}
 
