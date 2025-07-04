@@ -95,7 +95,7 @@ section p, section div a
     justify-content: space-evenly;
 }
 
-.projectnum1-div, .projectnum2-div, .projectnum3-div, .projectnum4-div, .projectnum5-div, .projectnum6-div, .projectnum7-div {
+.projectnum1-div, .projectnum2-div, .projectnum3-div, .projectnum4-div, .projectnum5-div, .projectnum6-div, .projectnum7-div, .projectnum8-div {
     width: 80%;
     margin: 20px auto;
     display: flex;
@@ -103,14 +103,14 @@ section p, section div a
     justify-content: center;
 }
 
-.projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img {
+.projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img, .projectnum8-div {
     width: 100%;
     margin: 10px auto;
     border: 5px solid black;
     border-radius: 8px;
 }
 
-.projectnum1 a, .projectnum2 a, .projectnum3 a, .projectnum4 a, .projectnum5 a, .projectnum6 a, .projectnum7 a {
+.projectnum1 a, .projectnum2 a, .projectnum3 a, .projectnum4 a, .projectnum5 a, .projectnum6 a, .projectnum7 a, .projectnum8 a {
     font-size: 30px;
 }
 
@@ -159,7 +159,7 @@ footer a {
     position: fixed;
     }
 
-    .projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img {
+    .projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img, .projectnum8-img {
     width: 100%;
     height: 100%;
     margin: 10px auto;
@@ -182,7 +182,7 @@ footer a {
     font-size: 30px;
     }
 
-    .projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img {
+    .projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img, .projectnum8-img {
     width: 100%;
     height: 100%;
     margin: 10px auto;
