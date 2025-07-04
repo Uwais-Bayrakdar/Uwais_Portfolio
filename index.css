@@ -103,7 +103,7 @@ section p, section div a
     justify-content: center;
 }
 
-.projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img, .projectnum8-div {
+.projectnum1-img, .projectnum2-img, .projectnum3-img, .projectnum4-img, .projectnum5-img, .projectnum6-img, .projectnum7-img, .projectnum8-img {
     width: 100%;
     margin: 10px auto;
     border: 5px solid black;
@@ -121,7 +121,7 @@ section p, section div a
     text-align: center;
 }
 
-.c-lang-projs, .html-css-projs, .js-lang-projs {
+.c-lang-projs, .html-css-projs, .js-lang-projs, .react-projs {
     border: 6px solid black;
     border-radius: 10px;
     margin: 10px 0 10px 0;
